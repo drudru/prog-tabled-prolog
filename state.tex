@@ -1,0 +1,21 @@
+\chapter{Managing Large, Updatable State}
+
+\section{Introduction}
+Prolog (and XSB) supports the dynamic updating of its global database,
+i.e., its set of clauses that define the predicates that it uses.  For
+a predicate to be updatable, it must be declared to be {\em dynamic}.
+Changes to the global clase set (a.k.a. database) are persistent
+across backtracking.  Any Prolog program that uses dynamic predicates
+is inherently nondeclarative, and thus to be avoided when possible.
+The question is when is it reasonably possible.  This chapter
+describes a data structure and methodologies for using it that can
+often be used insted of assert and retract, the Prolog builtins to
+change dynamic predicates in the global clause set.
+
+\section{The prolog\_db Data Structure}
+
+Describe this library.  Use much from the documentation of
+lib/prolog\_db.tex in the XSB system distribution.
+
+\section{Conclusion (or Summary'?)}
+if any...
