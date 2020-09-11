@@ -8,14 +8,19 @@ Changes to the global clase set (a.k.a. database) are persistent
 across backtracking.  Any Prolog program that uses dynamic predicates
 is inherently nondeclarative, and thus to be avoided when possible.
 The question is when is it reasonably possible.  This chapter
-describes a data structure and methodologies for using it that can
-often be used insted of assert and retract, the Prolog builtins to
-change dynamic predicates in the global clause set.
+describes how we can often use the {\tt prolog\_db} set data
+structure, described in the previous chapter, along with methodologies
+for using it to avoid the need for assert and retract, the Prolog
+builtins to change dynamic predicates in the global clause set.
 
 \section{The prolog\_db Data Structure}
 
 Describe this library.  Use much from the documentation of
 lib/prolog\_db.tex in the XSB system distribution.
 
-\section{Conclusion (or Summary'?)}
+\section{Examples}
+
+Various examples...
+
+\section{Conclusion (or Summary?)}
 if any...

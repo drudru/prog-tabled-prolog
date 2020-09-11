@@ -1,0 +1,27 @@
+\chapter{Programming with Sets}
+
+\section{Introduction}
+Prolog is fundamentally based on sets of tuples of terms, i.e.,
+relations.  But sometimes it is useful to manipulate explicitly sets
+of terms, as values of Prolog variables.  For small sets, one often
+uses sorted lists (without duplicates) as a canonical representation,
+but since this representation has linear lookup and linear update, it
+is unsuited for handling large sets.  XSB supports a powerful abstract
+data type for manipulating large sets of ground terms.
+
+The set representation has essentially log time lookup and update and
+is canonical, and by use of the XSB facility of ``interned terms'',
+can efficiently be combined with tabling.  It turns out to be
+surprisingly powerful.
+
+\section{Interned (or HashCons-ed) Terms}
+
+Describe interning, and predicate {\tt intern\_termhash/2}.
+
+\section{The prolog\_db Data Structure}
+
+Describe this library.  Use much from the documentation of
+lib/prolog\_db.tex in the XSB system distribution.
+
+\section{Conclusion (or Summary?)}
+if any...

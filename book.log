@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.11.21)  12 AUG 2020 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.11.21)  11 SEP 2020 14:21
 entering extended mode
 **book
 (book.tex
@@ -69,9 +69,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 3.
  [1
 
-] [2] [3] [4])
+] [2] [3] [4] [5])
 \tf@toc=\write3
- [5] (intro.tex
+ [6] (intro.tex
 Chapter 1.
 [1
 
@@ -150,24 +150,28 @@ LaTeX Warning: Citation `graphbase' on page 72 undefined on input line 423.
 [72] [73] [74]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 599.
- [75] [76] [77] [78] [79]) (datalog_exercises.tex [80] [81])
-(grammars.tex [82]
+ [75] [76] [77] [78] [79]) (tablebi.tex) (datalog_exercises.tex
+[80] [81] [82]) (lpasid.tex [83]
 Chapter 5.
-[83
+) (grammars.tex [84
 
-] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+]
+Chapter 6.
+[85
+
+] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97]
 Overfull \hbox (13.13478pt too wide) in paragraph at lines 676--676
 []\OT1/cmtt/m/n/10.95 % parseLLSF(SF,Follow,S0,S) if sentential form SF generat
 es the string from S0 to S.[] 
  []
 
-[96] [97] [98] [99] [100]
+[98] [99] [100] [101] [102]
 Overfull \hbox (64.87297pt too wide) in paragraph at lines 924--924
 []\OT1/cmtt/m/n/10.95 23. [S-->aBC,1,p1(1,p2(2,p3(3,p4(4,6)))),p2(2,p3(3,p4(4,6
 ))),p0(p2(2,p3(3,p4(4,6))),p4(4,6))][] 
  []
 
-[101] [102]
+[103] [104]
 Overfull \hbox (54.13635pt too wide) in paragraph at lines 1007--1012
 []\OT1/cmr/m/n/10.95 So in-stead of writ-ing the pred-i-cate as []\OT1/cmtt/m/n
 /10.95 match(Pat,Str)\OT1/cmr/m/n/10.95 , let's write it as []\OT1/cmtt/m/n/10.
@@ -181,42 +185,42 @@ OT1/cmr/m/n/10.95 and matches it against []\OT1/cmtt/m/n/10.95 StrSuff \OT1/cmr
 /m/n/10.95 and re-turns in []\OT1/cmtt/m/n/10.95 PatWithMismatch
  []
 
-[103] [104]
+[105] [106]
 Overfull \hbox (98.96115pt too wide) in paragraph at lines 1122--1130
 []\OT1/cmr/m/n/10.95 And we ta-ble that new pred-i-cate. Con-sider the pos-si-b
 le ar-gu-ments passed to []\OT1/cmtt/m/n/10.95 app_match_suffix_with_remainder/
 5\OT1/cmr/m/n/10.95 :
  []
 
-) (grammars_exercises.tex [105] [106]) (automata.tex [107]
-Chapter 6.
-[108
+) (grammars_exercises.tex [107] [108]) (automata.tex [109]
+Chapter 7.
+[110
 
 ]
 (figures/m0s1s2s.eps
 )
-[109] [110] [111] [112]
+[111] [112] [113] [114]
 (figures/efreem0s1s2s.eps
 )
-[113] [114] [115]
+[115] [116] [117]
 (figures/detm0s1s2s.eps
 )
-[116] [117] [118] [119] [120]
+[118] [119] [120] [121] [122]
 Overfull \hbox (41.87822pt too wide) in paragraph at lines 685--685
 []    \OT1/cmtt/m/n/10.95 tsetof(S,indistinguishable(Mach,T,S),Ta).  % target i
 s those indistinguishable from T[] 
  []
 
-[121] [122] [123]
+[123] [124] [125]
 Overfull \hbox (17.50974pt too wide) in paragraph at lines 775--778
 \OT1/cmr/m/n/10.95 FLATES MUL-TI-PLE OC-CUR-RENCES OF THE SAME RE SUBEX-PRES-SI
 ON. FIX OR DELETE!!!!
  []
 
-[124] [125] [126] [127]) (automata_exercises.tex
+[126] [127] [128] [129]) (automata_exercises.tex
 (figures/m0s1s2s.eps
 )
-[128]
+[130]
 Overfull \hbox (119.12773pt too wide) in paragraph at lines 56--60
 []\OT1/cmr/m/n/10.95 Given the def-i-ni-tion of the ma-chines M1 and M2, write 
 a pred-i-cate m(intersect(M1,M2),State,Symbol,TargetState)
@@ -234,85 +238,85 @@ Overfull \hbox (4.04616pt too wide) in paragraph at lines 73--76
 ,TargetState), mis(det(Mach),IS)
  []
 
-) (dynprog.tex [129]
-Chapter 7.
-[130
-
-] [131] [132]) (dynprog_exercises.tex) (hilog.tex [133]
+) (dynprog.tex [131]
 Chapter 8.
+[132
+
+] [133] [134]) (dynprog_exercises.tex) (hilog.tex [135]
+Chapter 9.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
- [134
+ [136
 
-] [135] [136]
-[137]) (debugging.tex [138]
-Chapter 9.
-[139
-
-]) (aggreg.tex [140]
+] [137] [138]
+[139]) (debugging.tex [140]
 Chapter 10.
 [141
 
-] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152]
-[153]) (incrtabling.tex [154]
+]) (aggreg.tex [142]
 Chapter 11.
-) (negation.tex [155
+[143
+
+] [144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154]
+[155]) (incrtabling.tex [156]
+Chapter 12.
+) (negation.tex [157
 
 ]
-Chapter 12.
-[156
+Chapter 13.
+[158
 
-] [157] [158] [159] [160]
+] [159] [160] [161] [162]
 Overfull \hbox (267.7483pt too wide) in paragraph at lines 293--300
 []\OT1/cmr/m/n/10.95 From []\OT1/cmtt/m/n/10.95 forall(X,bachelor(X) <-> (male(
 X) /\ not(married(X))))\OT1/cmr/m/n/10.95 , we can in-fer []\OT1/cmtt/m/n/10.95
  (bachelor(bill) <-> (male(bill) /\ not(married(bill))))\OT1/cmr/m/n/10.95 .
  []
 
-[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171]
+[163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
 
-LaTeX Warning: Citation `hjk' on page 172 undefined on input line 870.
+LaTeX Warning: Citation `hjk' on page 174 undefined on input line 870.
 
-[172] [173] (wellfounded.tex
+[174] [175] (wellfounded.tex
 
-LaTeX Warning: Citation `vangelder-et-al' on page 174 undefined on input line 4
+LaTeX Warning: Citation `vangelder-et-al' on page 176 undefined on input line 4
 .
 
-[174] [175] [176] [177] [178]) [179]
+[176] [177] [178] [179] [180]) [181]
 Overfull \hbox (9.80112pt too wide) in paragraph at lines 1005--1005
 []\OT1/cmr/bx/n/14.4 Representation of Par-tial Knowl-edge with Well-Founded Mo
 d-
  []
 
-[180] [181] [182] [183]) (metaint.tex [184]
-Chapter 13.
-[185
-
-] [186] [187] [188] [189]) (modules.tex [190]
+[182] [183] [184] [185]) (metaint.tex [186]
 Chapter 14.
-) (files.tex [191
+[187
 
-]
+] [188] [189] [190] [191]) (modules.tex [192]
 Chapter 15.
-[192
+) (files.tex [193
 
-] [193] [194] [195] [196]) (state.tex [197] [198]
+]
 Chapter 16.
-) (tablebi.tex [199
+[194
 
-]
+] [195] [196] [197] [198]) (sets.tex [199] [200]
 Chapter 17.
-) (xsbsys.tex [200
+) (state.tex [201
 
-]
+] [202]
 Chapter 18.
-) (book.bbl [201
+) (xsbsys.tex [203
 
-]) [202
+] [204]
+Chapter 19.
+) (book.bbl [205
+
+]) [206
 
 ] (book.aux)
 
@@ -320,12 +324,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 546 strings out of 493699
- 6030 string characters out of 3144410
- 59784 words of memory out of 3000000
+ 552 strings out of 493699
+ 6076 string characters out of 3144410
+ 60784 words of memory out of 3000000
  3833 multiletter control sequences out of 15000+200000
  14022 words of font info for 48 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  26i,8n,19p,199b,410s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on book.dvi (208 pages, 534652 bytes).
+Output written on book.dvi (213 pages, 542404 bytes).
