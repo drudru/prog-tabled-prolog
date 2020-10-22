@@ -1,4 +1,4 @@
-\contentsline {chapter}{\numberline {1}Background and Motivation}{1}
+\contentsline {chapter}{\numberline {1}Background and Motivation: Why Tabling?}{1}
 \contentsline {chapter}{\numberline {2}Introduction to Prolog}{6}
 \contentsline {section}{\numberline {2.1}Prolog as a Procedural Programming Language}{6}
 \contentsline {subsection}{\numberline {2.1.1}Assign-once Variables}{7}
@@ -46,80 +46,105 @@
 \contentsline {section}{\numberline {4.9}Exercises}{81}
 \contentsline {chapter}{\numberline {5}Prolog Programs as Inductive Definitions}{84}
 \contentsline {section}{\numberline {5.1}Introduction}{84}
-\contentsline {section}{\numberline {5.2}Conclusion (or Summary?)}{84}
-\contentsline {chapter}{\numberline {6}Grammars}{85}
-\contentsline {section}{\numberline {6.1}An Expression Grammar}{85}
-\contentsline {section}{\numberline {6.2}Representing the Input String as Facts}{87}
-\contentsline {section}{\numberline {6.3}Mixing Tabled and Prolog Evaluation}{89}
-\contentsline {section}{\numberline {6.4}So What Kind of Parser is it?}{90}
-\contentsline {section}{\numberline {6.5}Building Parse Trees}{91}
-\contentsline {section}{\numberline {6.6}Computing First Sets of Grammars}{94}
-\contentsline {section}{\numberline {6.7}Linear Parsing of LL(k) and LR(k) Grammars}{96}
-\contentsline {section}{\numberline {6.8}Parsing of Context Sensitive Grammars}{100}
-\contentsline {section}{\numberline {6.9}Substring Matching}{104}
-\contentsline {section}{\numberline {6.10}Exercises}{107}
-\contentsline {chapter}{\numberline {7}Automata Theory in XSB}{110}
-\contentsline {section}{\numberline {7.1}Finite State Machines}{110}
-\contentsline {subsection}{\numberline {7.1.1}Intersection of FSM's}{113}
-\contentsline {subsection}{\numberline {7.1.2}Epsilon-free FSM's}{114}
-\contentsline {subsection}{\numberline {7.1.3}Deterministic FSM's}{116}
-\contentsline {subsection}{\numberline {7.1.4}Complements of FSM's}{118}
-\contentsline {subsection}{\numberline {7.1.5}Minimization of FSM's}{121}
-\contentsline {subsection}{\numberline {7.1.6}Regular Expressions}{125}
-\contentsline {section}{\numberline {7.2}Grammars Revisited}{128}
-\contentsline {section}{\numberline {7.3}Push-Down Automata}{130}
-\contentsline {section}{\numberline {7.4}Exercises}{130}
-\contentsline {chapter}{\numberline {8}Dynamic Programming in XSB}{132}
-\contentsline {section}{\numberline {8.1}The Knap-Sack Problem}{132}
-\contentsline {section}{\numberline {8.2}Sequence Comparisons}{134}
-\contentsline {section}{\numberline {8.3}??}{135}
-\contentsline {section}{\numberline {8.4}Exercises}{135}
-\contentsline {chapter}{\numberline {9}HiLog Programming}{136}
-\contentsline {section}{\numberline {9.1}Generic Programs}{136}
-\contentsline {section}{\numberline {9.2}Object Centered Programming in XSB with HiLog}{140}
-\contentsline {chapter}{\numberline {10}Debugging Tabled Programs}{141}
-\contentsline {chapter}{\numberline {11}Aggregation}{143}
-\contentsline {section}{\numberline {11.1}Tabled Agggregation and Lattice Operations: Min, Max}{144}
-\contentsline {section}{\numberline {11.2}Tabled Agggregation and the Fold Operation: sum}{145}
-\contentsline {section}{\numberline {11.3}Paths with Maximal Numbers of Edges}{150}
-\contentsline {section}{\numberline {11.4}Recursive Aggregation}{152}
-\contentsline {subsection}{\numberline {11.4.1}Shortest Path}{152}
-\contentsline {subsection}{\numberline {11.4.2}Reasoning with Uncertainty: Annotated Logic}{153}
-\contentsline {subsection}{\numberline {11.4.3}Longest Path}{154}
-\contentsline {subsection}{\numberline {11.4.4}Markov Decision Processes}{154}
-\contentsline {section}{\numberline {11.5}Scheduling Issues}{156}
-\contentsline {section}{\numberline {11.6}Stratified Aggregation}{156}
-\contentsline {chapter}{\numberline {12}Incremental Table Maintenance}{157}
-\contentsline {chapter}{\numberline {13}Negation in XSB}{158}
-\contentsline {section}{\numberline {13.1}Completion Semantics}{162}
-\contentsline {section}{\numberline {13.2}Negation through Fixed Points}{165}
-\contentsline {section}{\numberline {13.3}General Negation}{171}
-\contentsline {subsection}{\numberline {13.3.1}Clark's Completion Semantics}{172}
-\contentsline {subsection}{\numberline {13.3.2}Stable Model Semantics}{174}
-\contentsline {subsection}{\numberline {13.3.3}Well-Founded Semantics}{176}
-\contentsline {section}{\numberline {13.4}Other Stuff to think about?}{181}
-\contentsline {section}{\numberline {13.5}Approximate Reasoning}{181}
-\contentsline {section}{\numberline {13.6}Representation of Partial Knowledge with Well-Founded Models}{182}
-\contentsline {chapter}{\numberline {14}Meta-Programming}{187}
-\contentsline {section}{\numberline {14.1}Meta-Interpreters in XSB}{187}
-\contentsline {subsection}{\numberline {14.1.1}A Metainterpreter for Disjunctive Logic Programs}{187}
-\contentsline {subsection}{\numberline {14.1.2}A Metainterpreter for Explicit Negation}{187}
-\contentsline {section}{\numberline {14.2}Abstract Interpretation}{187}
-\contentsline {subsection}{\numberline {14.2.1}AI of a Simple Nested Procedural Language}{188}
-\contentsline {chapter}{\numberline {15}XSB Modules}{193}
-\contentsline {chapter}{\numberline {16}Handling Large Fact Files}{194}
-\contentsline {section}{\numberline {16.1}Indexing}{194}
-\contentsline {section}{\numberline {16.2}Compiling Fact Files}{197}
-\contentsline {section}{\numberline {16.3}Dynamically Loaded Fact Files}{198}
-\contentsline {section}{\numberline {16.4}Indexing Static Program Clauses}{199}
-\contentsline {chapter}{\numberline {17}Programming with Sets}{201}
-\contentsline {section}{\numberline {17.1}Introduction}{201}
-\contentsline {section}{\numberline {17.2}Interned (or HashCons-ed) Terms}{201}
-\contentsline {section}{\numberline {17.3}The prolog\_db Data Structure}{201}
-\contentsline {section}{\numberline {17.4}Conclusion (or Summary?)}{202}
-\contentsline {chapter}{\numberline {18}Managing Large, Updatable State}{203}
-\contentsline {section}{\numberline {18.1}Introduction}{203}
-\contentsline {section}{\numberline {18.2}The prolog\_db Data Structure}{203}
-\contentsline {section}{\numberline {18.3}Examples}{203}
-\contentsline {section}{\numberline {18.4}Conclusion (or Summary?)}{204}
-\contentsline {chapter}{\numberline {19}XSB System Facilities}{205}
+\contentsline {section}{\numberline {5.2}Motivation}{85}
+\contentsline {section}{\numberline {5.3}Informal Review of Inductive Definitions}{85}
+\contentsline {section}{\numberline {5.4}Finite, Labeled, Ordered Trees}{86}
+\contentsline {section}{\numberline {5.5}Inductive Definitions of Sets of Trees}{88}
+\contentsline {section}{\numberline {5.6}Evaluation of Inductive Programs}{91}
+\contentsline {subsection}{\numberline {5.6.1}Top-Down Computation}{93}
+\contentsline {subsection}{\numberline {5.6.2}Lazy Grounding in Top-Down Computation}{101}
+\contentsline {section}{\numberline {5.7}Conclusion}{104}
+\contentsline {chapter}{\numberline {6}Grammars}{105}
+\contentsline {section}{\numberline {6.1}An Expression Grammar}{105}
+\contentsline {section}{\numberline {6.2}Representing the Input String as Facts}{107}
+\contentsline {section}{\numberline {6.3}Mixing Tabled and Prolog Evaluation}{109}
+\contentsline {section}{\numberline {6.4}So What Kind of Parser is it?}{110}
+\contentsline {section}{\numberline {6.5}Building Parse Trees}{111}
+\contentsline {section}{\numberline {6.6}Computing First Sets of Grammars}{114}
+\contentsline {section}{\numberline {6.7}Linear Parsing of LL(k) and LR(k) Grammars}{116}
+\contentsline {section}{\numberline {6.8}Parsing of Context Sensitive Grammars}{120}
+\contentsline {section}{\numberline {6.9}Substring Matching}{124}
+\contentsline {section}{\numberline {6.10}Exercises}{127}
+\contentsline {chapter}{\numberline {7}Automata Theory in XSB}{130}
+\contentsline {section}{\numberline {7.1}Finite State Machines}{130}
+\contentsline {subsection}{\numberline {7.1.1}Intersection of FSM's}{133}
+\contentsline {subsection}{\numberline {7.1.2}Epsilon-free FSM's}{134}
+\contentsline {subsection}{\numberline {7.1.3}Deterministic FSM's}{136}
+\contentsline {subsection}{\numberline {7.1.4}Complements of FSM's}{138}
+\contentsline {subsection}{\numberline {7.1.5}Minimization of FSM's}{141}
+\contentsline {subsection}{\numberline {7.1.6}Regular Expressions}{145}
+\contentsline {section}{\numberline {7.2}Grammars Revisited}{148}
+\contentsline {section}{\numberline {7.3}Push-Down Automata}{150}
+\contentsline {section}{\numberline {7.4}Exercises}{150}
+\contentsline {chapter}{\numberline {8}Dynamic Programming in XSB}{152}
+\contentsline {section}{\numberline {8.1}The Knap-Sack Problem}{152}
+\contentsline {section}{\numberline {8.2}Sequence Comparisons}{154}
+\contentsline {section}{\numberline {8.3}??}{155}
+\contentsline {section}{\numberline {8.4}Exercises}{155}
+\contentsline {chapter}{\numberline {9}Tabling for Initialization and Indexing}{156}
+\contentsline {section}{\numberline {9.1}abstract}{156}
+\contentsline {section}{\numberline {9.2}Introduction}{156}
+\contentsline {section}{\numberline {9.3}Brief Review of Top-Down and Bottom-up Evaluation}{157}
+\contentsline {section}{\numberline {9.4}Example of Need for Bottom-Up Evaluation}{158}
+\contentsline {section}{\numberline {9.5}Specifying Bottom-Up Evaluation in XSB}{159}
+\contentsline {section}{\numberline {9.6}Intermixing Top-down and Bottom-up evaluation}{161}
+\contentsline {section}{\numberline {9.7}Procedural Interpretation of Bottom-up Evaluation}{162}
+\contentsline {section}{\numberline {9.8}STWA for File Input}{163}
+\contentsline {section}{\numberline {9.9}Does Subsumptive Tabling with Abstraction (STWA) Really Do Bottom-Up Evaluation?}{164}
+\contentsline {section}{\numberline {9.10}Bottom-up Proofs for Propositional Horn Clauses in Linear Time}{166}
+\contentsline {section}{\numberline {9.11}Performance of XSB STWA for Bottom-Up Evaluation}{168}
+\contentsline {section}{\numberline {9.12}Conclusion}{170}
+\contentsline {section}{\numberline {9.13}Programs to Generate Traces}{170}
+\contentsline {section}{\numberline {9.14}Subsumptive Tabling with Full Abstraction (STWFA) is Bottom-up}{171}
+\contentsline {subsection}{\numberline {9.14.1}Multiple Machine Model of Tabled Horn Clause Evaluation}{171}
+\contentsline {subsection}{\numberline {9.14.2}Example of STWFA Evaluation}{172}
+\contentsline {subsection}{\numberline {9.14.3}Relationship of STWFA and Bottom-Up}{180}
+\contentsline {chapter}{\numberline {10}HiLog Programming}{183}
+\contentsline {section}{\numberline {10.1}Generic Programs}{183}
+\contentsline {section}{\numberline {10.2}Object Centered Programming in XSB with HiLog}{187}
+\contentsline {chapter}{\numberline {11}Debugging Tabled Programs}{188}
+\contentsline {chapter}{\numberline {12}Aggregation}{190}
+\contentsline {section}{\numberline {12.1}Tabled Agggregation and Lattice Operations: Min, Max}{191}
+\contentsline {section}{\numberline {12.2}Tabled Agggregation and the Fold Operation: sum}{192}
+\contentsline {section}{\numberline {12.3}Paths with Maximal Numbers of Edges}{197}
+\contentsline {section}{\numberline {12.4}Recursive Aggregation}{199}
+\contentsline {subsection}{\numberline {12.4.1}Shortest Path}{199}
+\contentsline {subsection}{\numberline {12.4.2}Reasoning with Uncertainty: Annotated Logic}{200}
+\contentsline {subsection}{\numberline {12.4.3}Longest Path}{201}
+\contentsline {subsection}{\numberline {12.4.4}Markov Decision Processes}{201}
+\contentsline {section}{\numberline {12.5}Scheduling Issues}{203}
+\contentsline {section}{\numberline {12.6}Stratified Aggregation}{203}
+\contentsline {chapter}{\numberline {13}Incremental Table Maintenance}{204}
+\contentsline {chapter}{\numberline {14}Negation in XSB}{205}
+\contentsline {section}{\numberline {14.1}Completion Semantics}{209}
+\contentsline {section}{\numberline {14.2}Negation through Fixed Points}{212}
+\contentsline {section}{\numberline {14.3}General Negation}{218}
+\contentsline {subsection}{\numberline {14.3.1}Clark's Completion Semantics}{219}
+\contentsline {subsection}{\numberline {14.3.2}Stable Model Semantics}{221}
+\contentsline {subsection}{\numberline {14.3.3}Well-Founded Semantics}{223}
+\contentsline {section}{\numberline {14.4}Other Stuff to think about?}{228}
+\contentsline {section}{\numberline {14.5}Approximate Reasoning}{228}
+\contentsline {section}{\numberline {14.6}Representation of Partial Knowledge with Well-Founded Models}{229}
+\contentsline {chapter}{\numberline {15}Meta-Programming}{234}
+\contentsline {section}{\numberline {15.1}Meta-Interpreters in XSB}{234}
+\contentsline {subsection}{\numberline {15.1.1}A Metainterpreter for Disjunctive Logic Programs}{234}
+\contentsline {subsection}{\numberline {15.1.2}A Metainterpreter for Explicit Negation}{234}
+\contentsline {section}{\numberline {15.2}Abstract Interpretation}{234}
+\contentsline {subsection}{\numberline {15.2.1}AI of a Simple Nested Procedural Language}{235}
+\contentsline {chapter}{\numberline {16}XSB Modules}{240}
+\contentsline {chapter}{\numberline {17}Handling Large Fact Files}{241}
+\contentsline {section}{\numberline {17.1}Indexing}{241}
+\contentsline {section}{\numberline {17.2}Compiling Fact Files}{244}
+\contentsline {section}{\numberline {17.3}Dynamically Loaded Fact Files}{245}
+\contentsline {section}{\numberline {17.4}Indexing Static Program Clauses}{246}
+\contentsline {chapter}{\numberline {18}Programming with Sets}{248}
+\contentsline {section}{\numberline {18.1}Introduction}{248}
+\contentsline {section}{\numberline {18.2}Interned (or HashCons-ed) Terms}{248}
+\contentsline {section}{\numberline {18.3}The prolog\_db Data Structure}{248}
+\contentsline {section}{\numberline {18.4}Conclusion (or Summary?)}{249}
+\contentsline {chapter}{\numberline {19}Managing Large, Updatable State}{250}
+\contentsline {section}{\numberline {19.1}Introduction}{250}
+\contentsline {section}{\numberline {19.2}The prolog\_db Data Structure}{250}
+\contentsline {section}{\numberline {19.3}Examples}{250}
+\contentsline {section}{\numberline {19.4}Conclusion (or Summary?)}{251}
+\contentsline {chapter}{\numberline {20}XSB System Facilities}{252}

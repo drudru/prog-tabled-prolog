@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.11.21)  11 SEP 2020 14:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=latex 2015.11.21)  22 OCT 2020 15:59
 entering extended mode
 **book
 (book.tex
@@ -33,45 +33,88 @@ This is `epsf.tex' v2.7.4 <14 February 2011>
 \epsfxsize=\dimen108
 \epsfysize=\dimen109
 \pspoints=\dimen110
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+\epsfxsize=\dimen113
+\epsfysize=\dimen114
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks15
+\thm@bodyfont=\toks16
+\thm@headfont=\toks17
+\thm@notefont=\toks18
+\thm@headpunct=\toks19
+\thm@preskip=\skip43
+\thm@postskip=\skip44
+\thm@headsep=\skip45
+\dth@everypar=\toks20
 )
 \c@example=\count88
 \c@proposition=\count89
-\c@dummylemma=\count90
+\c@theorem=\count90
+\c@dummylemma=\count91
  (book.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 94.
+(Font)              <17.28> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 94.
+(Font)              <12> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 94.
+(Font)              <8> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 94.
+(Font)              <6> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 94.
+(Font)              <7> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 94.
+(Font)              <5> on input line 98.
  [1
 
-] (book.toc
+]
+(book.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 3.
  [1
 
-] [2] [3] [4] [5])
+] [2] [3] [4] [5] [6])
 \tf@toc=\write3
- [6] (intro.tex
+ [7] (intro.tex
 Chapter 1.
 [1
 
@@ -80,24 +123,25 @@ Chapter 2.
 [6
 
 ] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
-(figures/sld-append1.eps
-)
-[19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
-(figures/expgraph.eps
-)
-[29]) (prolog_exercises.tex [30] [31]) (fol.tex [32] [33]
+File: figures/sld-append1.eps Graphic file (type eps)
+
+<figures/sld-append1.eps> [19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
+File: figures/expgraph.eps Graphic file (type eps)
+
+<figures/expgraph.eps> [29]) (prolog_exercises.tex [30] [31]) (fol.tex [32]
+[33]
 Chapter 3.
 [34
 
 ] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45]
-Overfull \hbox (25.09225pt too wide) in paragraph at lines 663--674
+Overfull \hbox (25.09225pt too wide) in paragraph at lines 664--675
 \OT1/cmr/m/n/10.95 So for ex-am-ple, for a model of arith-metic, we would have 
 facts like: []\OT1/cmtt/m/n/10.95 model_domain(0)\OT1/cmr/m/n/10.95 , []\OT1/cm
 tt/m/n/10.95 model_domain(1)\OT1/cmr/m/n/10.95 ,
  []
 
 
-Overfull \hbox (17.11282pt too wide) in paragraph at lines 663--674
+Overfull \hbox (17.11282pt too wide) in paragraph at lines 664--675
 []\OT1/cmtt/m/n/10.95 model_domain(2)\OT1/cmr/m/n/10.95 , and so on for the do-
 main el-e-ments. For func-tions we would have []\OT1/cmtt/m/n/10.95 model(+,[0,
 0],0)\OT1/cmr/m/n/10.95 ,
@@ -122,28 +166,27 @@ Chapter 4.
 [63
 
 ] [64]
-(figures/slgf-owe1.eps
-)
-[65]
-(figures/slgf-owe2.eps
-)
-(figures/slgf-owe3.eps
-)
-[66]
-(figures/slgf-owe4.eps
-)
-(figures/slgf-owe5.eps
-)
+File: figures/slgf-owe1.eps Graphic file (type eps)
+ <figures/slgf-owe1.eps> [65]
+File: figures/slgf-owe2.eps Graphic file (type eps)
+ <figures/slgf-owe2.eps>
+File: figures/slgf-owe3.eps Graphic file (type eps)
+
+<figures/slgf-owe3.eps> [66]
+File: figures/slgf-owe4.eps Graphic file (type eps)
+ <figures/slgf-owe4.eps>
+File: figures/slgf-owe5.eps Graphic file (type eps)
+ <figures/slgf-owe5.eps>
 [67] [68] [69]
-(figures/slgf-owel1.eps
-)
-(figures/slgf-owel2.eps
-)
-(figures/slgf-owel3.eps
-)
-(figures/slgf-owel4.eps
-)
-[70] [71]
+File: figures/slgf-owel1.eps Graphic file (type eps)
+ <figures/slgf-owel1.eps>
+File: figures/slgf-owel2.eps Graphic file (type eps)
+ <figures/slgf-owel2.eps>
+File: figures/slgf-owel3.eps Graphic file (type eps)
+
+<figures/slgf-owel3.eps>
+File: figures/slgf-owel4.eps Graphic file (type eps)
+ <figures/slgf-owel4.eps> [70] [71]
 
 LaTeX Warning: Citation `graphbase' on page 72 undefined on input line 423.
 
@@ -153,25 +196,70 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [75] [76] [77] [78] [79]) (tablebi.tex) (datalog_exercises.tex
 [80] [81] [82]) (lpasid.tex [83]
 Chapter 5.
-) (grammars.tex [84
 
-]
+LaTeX Warning: Citation `...' on page 84 undefined on input line 41.
+
+[84
+
+] [85] [86] [87]
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
+ []
+
+[88] [89] [90] [91]
+Overfull \hbox (29.3525pt too wide) in paragraph at lines 468--483
+\OT1/cmr/m/it/10.95 no body and so does not re-quire any trees ear-lier in the 
+proof. Tree []\OT1/cmtt/m/n/10.95 2. \OT1/cmr/m/it/10.95 is jus-ti-fied by []\O
+T1/cmtt/m/n/10.95 cons(aa,nil) :- nil\OT1/cmr/m/it/10.95 ,
+ []
+
+
+Overfull \hbox (15.22446pt too wide) in paragraph at lines 468--483
+[]\OT1/cmtt/m/n/10.95 cons(aa,cons(aa,nil)) :- cons(aa,nil)\OT1/cmr/m/it/10.95 
+, a ground in-stance of rule []\OT1/cmtt/m/n/10.95 b.\OT1/cmr/m/it/10.95 , whos
+e body, []\OT1/cmtt/m/n/10.95 cons(aa,nil)\OT1/cmr/m/it/10.95 ,
+ []
+
+
+Overfull \hbox (56.96442pt too wide) in paragraph at lines 468--483
+\OT1/cmr/m/it/10.95 is tree []\OT1/cmtt/m/n/10.95 2. \OT1/cmr/m/it/10.95 in the
+ proof. Tree []\OT1/cmtt/m/n/10.95 4. \OT1/cmr/m/it/10.95 is jus-ti-fied by []\
+OT1/cmtt/m/n/10.95 cons(aa,cons(aa,cons(aa,nil))) :- cons(aa,cons(aa,nil))\OT1/
+cmr/m/it/10.95 ,
+ []
+
+[92]
+Overfull \hbox (6.82687pt too wide) in paragraph at lines 533--537
+\OT1/cmr/bx/n/10.95 Example 5.6.4. \OT1/cmr/m/it/10.95 We can use this pro-gram
+ to de-fine an-other set of trees, of the form []\OT1/cmtt/m/n/10.95 mult(N1,N2
+,N3)\OT1/cmr/m/it/10.95 ,
+ []
+
+[93] [94] [95] [96] [97] [98] [99] [100] [101]
+Overfull \hbox (61.22787pt too wide) in paragraph at lines 998--1026
+\OT1/cmr/m/it/10.95 term as head. So we choose the sub-sti-tu-tion of []\OT1/cm
+tt/m/n/10.95 {N->s(0), M->s(s(0)), NM->s(s(s(0))), NMProd->s(s(0))}\OT1/cmr/m/i
+t/10.95 ,
+ []
+
+[102] [103]) (grammars.tex [104]
 Chapter 6.
-[85
+[105
 
-] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97]
+] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115] [116]
+[117]
 Overfull \hbox (13.13478pt too wide) in paragraph at lines 676--676
 []\OT1/cmtt/m/n/10.95 % parseLLSF(SF,Follow,S0,S) if sentential form SF generat
 es the string from S0 to S.[] 
  []
 
-[98] [99] [100] [101] [102]
+[118] [119] [120] [121] [122]
 Overfull \hbox (64.87297pt too wide) in paragraph at lines 924--924
 []\OT1/cmtt/m/n/10.95 23. [S-->aBC,1,p1(1,p2(2,p3(3,p4(4,6)))),p2(2,p3(3,p4(4,6
 ))),p0(p2(2,p3(3,p4(4,6))),p4(4,6))][] 
  []
 
-[103] [104]
+[123] [124]
 Overfull \hbox (54.13635pt too wide) in paragraph at lines 1007--1012
 []\OT1/cmr/m/n/10.95 So in-stead of writ-ing the pred-i-cate as []\OT1/cmtt/m/n
 /10.95 match(Pat,Str)\OT1/cmr/m/n/10.95 , let's write it as []\OT1/cmtt/m/n/10.
@@ -185,42 +273,39 @@ OT1/cmr/m/n/10.95 and matches it against []\OT1/cmtt/m/n/10.95 StrSuff \OT1/cmr
 /m/n/10.95 and re-turns in []\OT1/cmtt/m/n/10.95 PatWithMismatch
  []
 
-[105] [106]
+[125] [126]
 Overfull \hbox (98.96115pt too wide) in paragraph at lines 1122--1130
 []\OT1/cmr/m/n/10.95 And we ta-ble that new pred-i-cate. Con-sider the pos-si-b
 le ar-gu-ments passed to []\OT1/cmtt/m/n/10.95 app_match_suffix_with_remainder/
 5\OT1/cmr/m/n/10.95 :
  []
 
-) (grammars_exercises.tex [107] [108]) (automata.tex [109]
+) (grammars_exercises.tex [127] [128]) (automata.tex [129]
 Chapter 7.
-[110
+[130
 
 ]
-(figures/m0s1s2s.eps
-)
-[111] [112] [113] [114]
-(figures/efreem0s1s2s.eps
-)
-[115] [116] [117]
-(figures/detm0s1s2s.eps
-)
-[118] [119] [120] [121] [122]
+File: figures/m0s1s2s.eps Graphic file (type eps)
+ <figures/m0s1s2s.eps> [131] [132] [133] [134]
+File: figures/efreem0s1s2s.eps Graphic file (type eps)
+ <figures/efreem0s1s2s.eps>
+[135] [136] [137]
+File: figures/detm0s1s2s.eps Graphic file (type eps)
+ <figures/detm0s1s2s.eps> [138] [139] [140] [141] [142]
 Overfull \hbox (41.87822pt too wide) in paragraph at lines 685--685
 []    \OT1/cmtt/m/n/10.95 tsetof(S,indistinguishable(Mach,T,S),Ta).  % target i
 s those indistinguishable from T[] 
  []
 
-[123] [124] [125]
+[143] [144] [145]
 Overfull \hbox (17.50974pt too wide) in paragraph at lines 775--778
 \OT1/cmr/m/n/10.95 FLATES MUL-TI-PLE OC-CUR-RENCES OF THE SAME RE SUBEX-PRES-SI
 ON. FIX OR DELETE!!!!
  []
 
-[126] [127] [128] [129]) (automata_exercises.tex
-(figures/m0s1s2s.eps
-)
-[130]
+[146] [147] [148] [149]) (automata_exercises.tex
+File: figures/m0s1s2s.eps Graphic file (type eps)
+ <figures/m0s1s2s.eps> [150]
 Overfull \hbox (119.12773pt too wide) in paragraph at lines 56--60
 []\OT1/cmr/m/n/10.95 Given the def-i-ni-tion of the ma-chines M1 and M2, write 
 a pred-i-cate m(intersect(M1,M2),State,Symbol,TargetState)
@@ -238,85 +323,202 @@ Overfull \hbox (4.04616pt too wide) in paragraph at lines 73--76
 ,TargetState), mis(det(Mach),IS)
  []
 
-) (dynprog.tex [131]
+) (dynprog.tex [151]
 Chapter 8.
-[132
+[152
 
-] [133] [134]) (dynprog_exercises.tex) (hilog.tex [135]
+] [153] [154]) (dynprog_exercises.tex) (tabind.tex [155]
 Chapter 9.
+
+LaTeX Warning: Citation `Kowalski:1986:LP:13060' on page 156 undefined on input
+ line 15.
+
+
+LaTeX Warning: Citation `memoing:warren' on page 156 undefined on input line 16
+.
+
+
+LaTeX Warning: Citation `Lloyd:1993:FLP:529834' on page 156 undefined on input 
+line 29.
+
+
+LaTeX Warning: Citation `bry-reconciled' on page 156 undefined on input line 29
+.
+
+
+LaTeX Warning: Citation `Ullman:1989:BBT:73721.73736' on page 156 undefined on 
+input line 31.
+
+
+LaTeX Warning: Citation `Toman95top-downbeats' on page 156 undefined on input l
+ine 31.
+
+
+LaTeX Warning: Citation `Tekle:2011:MED:1989323.1989393' on page 156 undefined 
+on input line 31.
+
+
+LaTeX Warning: Citation `xsbprolog:tplp' on page 156 undefined on input line 33
+.
+
+
+LaTeX Warning: Citation `DBLP:journals/tplp/CostaRD12' on page 156 undefined on
+ input line 34.
+
+
+LaTeX Warning: Citation `DBLP:journals/tplp/HermenegildoBCLMMP12' on page 156 u
+ndefined on input line 35.
+
+
+LaTeX Warning: Citation `DBLP:journals/tplp/Zhou12' on page 156 undefined on in
+put line 36.
+
+
+LaTeX Warning: Citation `SWI-tabling' on page 156 undefined on input line 37.
+
+
+LaTeX Warning: Citation `LDLplusplus' on page 156 undefined on input line 38.
+
+
+LaTeX Warning: Citation `DBLP:journals/vldb/RamakrishnanSSS94' on page 156 unde
+fined on input line 38.
+
+
+LaTeX Warning: Citation `Aref:2015:DIL:2723372.2742796' on page 156 undefined o
+n input line 39.
+
+[156
+
+] [157] [158]
+
+LaTeX Warning: Citation `Johnson1999' on page 159 undefined on input line 231.
+
+
+LaTeX Warning: Citation `Tries@JLP' on page 159 undefined on input line 231.
+
+
+LaTeX Warning: Citation `ejohnson-tapd' on page 159 undefined on input line 231
+.
+
+
+LaTeX Warning: Citation `EJohnson-thesis' on page 159 undefined on input line 2
+31.
+
+
+LaTeX Warning: Citation `DBLP:journals/corr/abs-1107-5556' on page 159 undefine
+d on input line 231.
+
+[159]
+
+LaTeX Warning: Citation `xsbmanual' on page 160 undefined on input line 254.
+
+[160] [161] [162]
+Overfull \hbox (1.4518pt too wide) in paragraph at lines 437--445
+\OT1/cmr/m/n/10.95 tence find the words in it. But the ap-pli-ca-tion re-quires
+ mul-ti-ple calls of the mode \OT1/cmtt/m/n/10.95 corpus[]word(-,+)\OT1/cmr/m/n
+/10.95 ,
+ []
+
+
+LaTeX Warning: Citation `Tries@JLP' on page 163 undefined on input line 500.
+
+[163]
+
+LaTeX Warning: Citation `xsbmanual' on page 164 undefined on input line 515.
+
+[164] [165] [166] [167] [168]
+File: time_graphProp2.pdf Graphic file (type eps)
+ <time_graphProp2.pdf>
+
+LaTeX Warning: Citation `Dowling1984LinearTimeAF' on page 169 undefined on inpu
+t line 850.
+
+[169] [170]
+Overfull \hbox (26.6876pt too wide) in paragraph at lines 936--936
+[]\OT1/cmr/bx/n/14.4 Subsumptive Tabling with Full Ab-strac-tion (STWFA) is Bot
+tom-
+ []
+
+[171] [172] [173] [174] [175] [176] [177] [178] [179]
+Underfull \hbox (badness 10000) in paragraph at lines 1452--1454
+
+ []
+
+[180]) (hilog.tex [181] [182]
+Chapter 10.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
- [136
+ [183
 
-] [137] [138]
-[139]) (debugging.tex [140]
-Chapter 10.
-[141
-
-]) (aggreg.tex [142]
+] [184] [185]
+[186]) (debugging.tex [187]
 Chapter 11.
-[143
+[188
 
-] [144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154]
-[155]) (incrtabling.tex [156]
+]) (aggreg.tex [189]
 Chapter 12.
-) (negation.tex [157
+[190
+
+] [191] [192] [193] [194] [195] [196] [197] [198] [199] [200] [201]
+[202]) (incrtabling.tex [203]
+Chapter 13.
+) (negation.tex [204
 
 ]
-Chapter 13.
-[158
+Chapter 14.
+[205
 
-] [159] [160] [161] [162]
+] [206] [207] [208] [209]
 Overfull \hbox (267.7483pt too wide) in paragraph at lines 293--300
 []\OT1/cmr/m/n/10.95 From []\OT1/cmtt/m/n/10.95 forall(X,bachelor(X) <-> (male(
 X) /\ not(married(X))))\OT1/cmr/m/n/10.95 , we can in-fer []\OT1/cmtt/m/n/10.95
  (bachelor(bill) <-> (male(bill) /\ not(married(bill))))\OT1/cmr/m/n/10.95 .
  []
 
-[163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[210] [211] [212] [213] [214] [215] [216] [217] [218] [219] [220]
 
-LaTeX Warning: Citation `hjk' on page 174 undefined on input line 870.
+LaTeX Warning: Citation `hjk' on page 221 undefined on input line 870.
 
-[174] [175] (wellfounded.tex
+[221] [222] (wellfounded.tex
 
-LaTeX Warning: Citation `vangelder-et-al' on page 176 undefined on input line 4
+LaTeX Warning: Citation `vangelder-et-al' on page 223 undefined on input line 4
 .
 
-[176] [177] [178] [179] [180]) [181]
+[223] [224] [225] [226] [227]) [228]
 Overfull \hbox (9.80112pt too wide) in paragraph at lines 1005--1005
 []\OT1/cmr/bx/n/14.4 Representation of Par-tial Knowl-edge with Well-Founded Mo
 d-
  []
 
-[182] [183] [184] [185]) (metaint.tex [186]
-Chapter 14.
-[187
-
-] [188] [189] [190] [191]) (modules.tex [192]
+[229] [230] [231] [232]) (metaint.tex [233]
 Chapter 15.
-) (files.tex [193
+[234
+
+] [235] [236] [237] [238]) (modules.tex [239]
+Chapter 16.
+) (files.tex [240
 
 ]
-Chapter 16.
-[194
-
-] [195] [196] [197] [198]) (sets.tex [199] [200]
 Chapter 17.
-) (state.tex [201
+[241
 
-] [202]
+] [242] [243] [244] [245]) (sets.tex [246] [247]
 Chapter 18.
-) (xsbsys.tex [203
+) (state.tex [248
 
-] [204]
+] [249]
 Chapter 19.
-) (book.bbl [205
+) (xsbsys.tex [250
 
-]) [206
+] [251]
+Chapter 20.
+) (book.bbl [252
+
+]) [253
 
 ] (book.aux)
 
@@ -324,12 +526,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 552 strings out of 493699
- 6076 string characters out of 3144410
- 60784 words of memory out of 3000000
- 3833 multiletter control sequences out of 15000+200000
- 14022 words of font info for 48 fonts, out of 3000000 for 9000
+ 1046 strings out of 493699
+ 12605 string characters out of 3144410
+ 77916 words of memory out of 3000000
+ 4293 multiletter control sequences out of 15000+200000
+ 15427 words of font info for 53 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 26i,8n,19p,199b,410s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,21p,211b,410s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on book.dvi (213 pages, 542404 bytes).
+Output written on book.dvi (261 pages, 685764 bytes).

@@ -1,4 +1,4 @@
-\chapter{Background and Motivation}
+\chapter{Background and Motivation: Why Tabling?}
 
 There is a flaw in the very foundations of Logic Programming: Prolog
 is nondeclarative.  Of course, everyone knows that real Prolog as it
@@ -98,7 +98,7 @@ our programming language is going to have to account for this.  And it
 does.  We can't depend on the previously referenced foundational
 results to give a semantics for pure Prolog as a programming language,
 where we want to know what both `yes' and `no' answers mean.  The
-theory must somehow be extended.  This was done by Clark who defined
+theory must somehow be extended.  This was done in \cite{} by Kenneth Clark who defined
 the completion of a program.  The semantics of (pure) Prolog programs
 is normally taken to be the logical implications of the completion
 (plus some standard axioms such as the unique names axiom.)  To find
@@ -107,7 +107,7 @@ implication rules for tca/2 into the equivalent one implication with a
 disjunction in the antecedent, and then we turn the implication into a
 biconditional.  We do a similar transformation for a/2.  Then we take
 the meaning of the program to be the logical implications of these
-biconditionals (including the standard axioms).  And it is the case
+biconditionals (including some standard axioms).  And it is the case
 that $\sim tca(1,2)$ is not logically implied by this theory (and
 neither is tca(1,2), of course.)  So the completion semantics correctly
 tells us that SLD will not terminate for this query.  And indeed
@@ -182,7 +182,8 @@ requires default negation.)  I will discuss some implications of this
 later, and try to claim that things aren't so bad, but I can't say
 they aren't true.  Basically, the purpose of this entire book is to
 claim that the second objection can be overcome.  It is overcome by
-using OLDT resolution in place of SLD resolution in the foundational
+using OLDT resolution \cite{} (or a generalizaiton SLG Resolution \cite{})
+in place of SLD resolution in the foundational
 theorems.  OLDT is a resolution strategy very similar to SLD, but one
 that avoids redundant computation by remembering subcomputations and
 reusing their results to respond to later requests.  This remembering
@@ -198,18 +199,18 @@ have a least fixpoint of finite size.  This guarantees total
 correctness for the transitive closure definition (over finite
 graphs).  Actually, even more can be said: OLDT terminates for all
 queries to programs for which only a finite portion of the minimal
-model is looked at; that is, for all programs with the bounded term
-size property (BTS).  BTS is slightly circular, and undecidable, but
+model is looked at; that is, for all programs with the Bounded Term
+Size (BTS) property.  BTS is slightly circular, and undecidable, but
 to me intuitively says that any finitary, constructive definition will
 terminate.  (Admittedly, this is also somewhat circular.)
 
 One thing that happens when we do not have first-order theories to
 explain our semantics, i.e. the first objection above, is that we may
-leave the realm of r.e. sets.  That is, if we did have a first-order
+leave the realm of recursively enumerable sets.  That is, if we did have a first-order
 theory to explain the semantics, then we'd know that a theorem-prover
 could enumerate the theorems and the semantics would be r.e.  However,
 by going to the minimal model semantics, we may (and do, when we add
-negation) get non-r.e. sets.  That is, we leave the realm of the
+negation) get non-r.e.~sets.  That is, we leave the realm of the
 computable sets.  This might give pause to someone interested in
 computation, because then we can write programs that aren't in
 principle computable.  Note that this isn't a problem for totally
@@ -252,7 +253,8 @@ Actually, even more than that, I think it will be the case that we
 will be able to construct an engine that for many useful problems will
 be significantly faster than Prolog.  And these problems will be in
 what has historically been logic programming's core applications:
-natural language, AI search, and databases.  The examples in this book
+natural language, AI search, knowledge bases, and databases.
+The examples in this book
 will indicate in detail where some of the problems lie.  There is much
 work to do, but I will claim that results we already have in the XSB
 project indicate that it will definitely be possible.
